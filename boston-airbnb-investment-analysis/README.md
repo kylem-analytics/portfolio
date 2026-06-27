@@ -48,7 +48,7 @@ The full cleaning and feature engineering pipeline is in [`notebooks/boston_airb
 
 **1. Data cleaning & feature engineering** (Python / pandas) — parsed price and amenities fields, derived host tenure, built neighborhood-level competition tiers, and constructed a composite quality index.
 
-**2. Exploratory visualization** (Tableau) — eight visualizations covering revenue by location, revenue by neighborhood, amenities vs. reviews, host experience vs. revenue, revenue by competition level, revenue by quality index, amenities distribution, and superhost status vs. revenue. See [`tableau/boston_airbnb_dashboard.twbx`](tableau/boston_airbnb_dashboard.twbx).
+**2. Exploratory visualization** (Tableau) — eight visualizations covering revenue by location, revenue by neighborhood, amenities vs. reviews, host experience vs. revenue, revenue by competition level, revenue by quality index, amenities distribution, and superhost status vs. revenue, combined into a single interactive dashboard with a room-type filter. See [`tableau/boston_airbnb_dashboard.twbx`](tableau/boston_airbnb_dashboard.twbx).
 
 **3. Statistical modeling** (OLS regression, `statsmodels`) — three nested models predicting estimated monthly revenue:
 
@@ -100,7 +100,7 @@ boston-airbnb-investment-analysis/
 ├── notebooks/
 │   └── boston_airbnb_analysis.ipynb     # Data cleaning, feature engineering, and regression models
 ├── tableau/
-│   └── boston_airbnb_dashboard.twbx     # Packaged Tableau workbook (8 visualizations)
+│   └── boston_airbnb_dashboard.twbx     # Packaged Tableau workbook: 8 visualizations + interactive dashboard
 └── data/
     └── boston_airbnb_clean_for_tableau.csv   # Cleaned dataset used for visualization and modeling
 ```
