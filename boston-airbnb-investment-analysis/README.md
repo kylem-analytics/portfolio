@@ -34,7 +34,7 @@ Working hypotheses going in:
 ## Data
 
 - **Source:** [Inside Airbnb](http://insideairbnb.com/get-the-data/) — Boston listings snapshot
-- **Scope:** ~2,800 active listings after cleaning
+- **Scope:** ~3,470 active listings after cleaning (2,742 used in the regression models, after also dropping listings with no review rating yet)
 - **Key engineered features:**
   - `est_monthly_revenue` — trailing 12-month estimated revenue ÷ 12
   - `amenities_count` — parsed from the listing's amenities field
@@ -55,31 +55,36 @@ The full cleaning and feature engineering pipeline is in [`notebooks/boston_airb
 | | Model 1 | Model 2 | Model 3 |
 |---|---|---|---|
 | **Includes** | Controls only | + amenities, occupancy, competition | + interaction effects |
-| **Adjusted R²** | 0.549 | 0.618 | 0.618 |
-| **N** | 2,778 | 2,778 | 2,778 |
+| **Adjusted R²** | 0.391 | 0.741 | 0.747 |
+| **N** | 2,742 | 2,742 | 2,742 |
 
 Controls: accommodates, beds, nightly price, review rating, host years, number of reviews.
 Main variables: amenities count, estimated occupancy, neighborhood listing count.
 Interactions: amenities × competition, amenities × occupancy, occupancy × competition.
 
+*N drops from ~3,470 cleaned listings to 2,742 in the regression because `review_scores_rating` is missing for listings without reviews yet, and `statsmodels` excludes any row missing a model variable.*
+
 ## Key Findings
 
-- **Demand beats features.** Estimated occupancy is, by a wide margin, the strongest and most consistent predictor of monthly revenue. Listings with higher booking frequency outperform regardless of amenities or reputation.
-- **Amenities alone don't move revenue — but they interact with competition.** Amenities count is not independently significant once demand and competition are controlled. However, the interaction between amenities and neighborhood listing count is negative and significant (p < 0.05): in highly competitive neighborhoods, additional amenity investment shows diminishing — even negative — returns.
-- **Reputation matters less once you control for actual bookings.** Review count and rating lose significance once occupancy is in the model, suggesting that realized demand captures more performance information than reputation signals alone.
-- **Host tenure is negatively associated with revenue.** A counterintuitive result, plausibly explained by newer hosts pricing and optimizing more aggressively, or by long-tenured hosts disproportionately managing lower-value properties.
-- **Revenue is geographically concentrated.** Back Bay, Beacon Hill, and the North End post the highest revenue, and denser neighborhoods generally outperform — location is a first-order driver of performance.
-- **Superhost status is associated with higher average revenue**, consistent with the signaling framework: status acts as a trust signal that guests reward.
-- **There's a "sweet spot" for amenities** — most Boston listings cluster around 25–30 amenities, and the relationship between amenity count and reviews flattens out beyond a moderate range rather than increasing indefinitely.
+- **Demand and price are the strongest drivers of revenue.** Estimated occupancy and nightly price are the two most consistent, highly significant predictors of monthly revenue across all three models — listings that book often and price well outperform regardless of other features.
+- **Amenities alone don't move revenue — but they interact with both demand and competition.** Amenities count is not significant on its own once demand and competition are controlled. However, two interaction effects are significant: amenities × neighborhood competition is **negative** (in more saturated neighborhoods, additional amenities show diminishing returns), while amenities × occupancy is **positive** (amenities pay off more for listings that are already booking well, likely because more guests see and benefit from them).
+- **Review rating has a small negative association with revenue once demand is controlled.** This is counterintuitive on its face, but consistent with high-volume, lower-priced listings collecting more (and slightly lower) ratings than niche, high-revenue listings with fewer but more enthusiastic reviewers.
+- **Host tenure is negatively associated with revenue.** Newer hosts outperform more tenured ones in this data, plausibly because they're entering the market with more current pricing and listing strategies, or because longer-tenured hosts are disproportionately running lower-value properties.
+- **Revenue is geographically concentrated.** Downtown, the North End, Fenway, and Back Bay post the highest average monthly revenue; outer neighborhoods like Roxbury trail well behind. Location is a first-order driver of performance.
+- **Higher-competition neighborhoods actually show higher average revenue**, not lower — likely because competitive neighborhoods are also the highest-demand ones (Downtown, North End). Competition and demand are intertwined in this market rather than purely substitutes.
+- **Superhost listings earn meaningfully more on average** ($2,452/month vs. $1,405/month for non-superhosts), consistent with the signaling framework: status acts as a trust signal that guests reward.
+- **There's an amenities "sweet spot" around 30–35 amenities** — the largest concentration of Boston listings falls in this range, and the composite quality index (amenities + rating) rises steadily with revenue, from ~$1,510/month in the bottom quartile to ~$2,919/month in the top quartile.
+- **Entire homes substantially outperform private and shared rooms** — averaging roughly $2,226/month in estimated revenue versus $735/month for private rooms — directly answering the question of which listing type is the strongest investment in Boston.
 
 ## Practical Implications
 
 For investors and hosts evaluating the Boston market:
 
-1. **Prioritize demand drivers over feature accumulation.** Since occupancy and pricing structure dominate the revenue model, investment dollars are generally better spent improving bookability (pricing strategy, listing quality, responsiveness) than piling on amenities.
-2. **Make amenity investment market-specific.** Amenities pay off more in lower-competition neighborhoods. In saturated markets (e.g., Back Bay, Beacon Hill), differentiate through branding, guest experience, and niche positioning rather than amenity count alone.
-3. **Don't over-index on reputation metrics in isolation.** A strong review score doesn't substitute for actual demand — evaluate listings (or markets) on realized occupancy, not just star ratings.
-4. **Target high-density, high-demand neighborhoods first**, since location effects on revenue are large and consistent across the analysis.
+1. **Prioritize demand and pricing strategy over feature accumulation.** Occupancy and nightly price dominate the revenue model, so dollars are generally better spent improving bookability (pricing strategy, listing quality, responsiveness) than piling on amenities alone.
+2. **Treat amenities as a demand multiplier, not a standalone lever.** Amenities pay off most when a listing is already in demand, and pay off least in highly saturated neighborhoods — invest in amenities to reinforce a strong listing, not to rescue a weak one in a crowded market.
+3. **Don't be deterred by competitive neighborhoods.** In this data, higher-competition areas posted *higher* average revenue, not lower — competition and demand move together in Boston rather than canceling each other out. Downtown, the North End, and Back Bay combine strong demand with strong competition, and still outperform.
+4. **Favor entire-home listings.** Entire homes earn roughly 3x the average monthly revenue of private rooms in this market, making them the stronger investment type of the three compared in this analysis.
+5. **Weight superhost status and review ratings carefully.** Superhost status correlates with meaningfully higher revenue, but raw review rating shows a small negative association once demand is controlled — a reminder to evaluate listings (or markets) on realized booking performance, not star ratings alone.
 
 ## Tools Used
 
