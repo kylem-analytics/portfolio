@@ -35,10 +35,6 @@ This project evaluates the investment potential of **Museum Tower Apartments** (
 | **IRR** | 4.78% | 2.97% | 7.69% |
 | **DCF Value** | $165.8M | $151.3M | $194.8M |
 
-## A Note on the Model
-
-An earlier version of this model contained two errors caught during review: operating expenses were referencing a static base year instead of compounding year-over-year (understating expenses, and therefore overstating NOI and IRR), and the going-out cap rate was hardcoded in the worst and best case scenarios instead of being tied formulaically to the going-in cap rate. Both were corrected — every operating expense line now compounds on the prior year (consistent with how CAPEX was already modeled), and going-out cap rates in all three scenarios are now formula-driven. The numbers in this README and the final report reflect the corrected model.
-
 ## Tools Used
 
 - **Excel** — three-scenario DCF model with formula-driven assumptions, IRR/NPV calculations, and a fully cross-checked operating expense schedule
