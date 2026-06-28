@@ -1,57 +1,60 @@
 # Uptown Charlotte Multifamily Investment Analysis
-> Museum Tower Apartments | 525 S Church Street, Charlotte, NC
+
+A discounted cash flow underwriting analysis of Museum Tower Apartments, a Class A high-rise multifamily asset in Uptown Charlotte, built to assess whether the property's current asking price is supported by its projected cash flows.
+
+**Completed as part of a Real Estate Finance course at Elon University, in collaboration with Noah Rubin and Mitch Ashberg.**
+
+---
 
 ## Overview
-This project presents a full investment underwriting of Museum Tower Apartments, a Class A five-star high-rise multifamily asset located in the Uptown Charlotte submarket. The analysis was completed as part of a Real Estate Finance course at Elon University and encompasses submarket research, demographic analysis, comparable property selection, and a multi-scenario discounted cash flow model — all sourced from CoStar.
 
-## Team
-**Kyle Murphy** | **Noah Rubin** | **Mitch Ashberg**  
-Real Estate Finance | Elon University | 2025
+This project evaluates the investment potential of **Museum Tower Apartments** (525 S Church Street, Charlotte, NC) — a five-star, 43-story high-rise built atop the Mint Museum in the Third Ward submarket of Uptown Charlotte. The analysis combines CoStar market and property data, comparable leasing and sales transactions, demographic research, and a three-scenario discounted cash flow model to determine whether the asset's asking price is justified by its underlying fundamentals.
 
-## Investment Objective
-Assess the risk-adjusted return potential of Museum Tower Apartments by evaluating submarket fundamentals, competitive positioning, and a five-year hold underwriting with three modeled scenarios.
-
-## Methodology
-- **Submarket Analysis** — Demand and supply economics, KPI benchmarking, and Uptown vs. broader Charlotte market comparison using CoStar data
-- **Demographic Research** — Income, age cohort, density, and household wealth analysis within a two-mile radius
-- **Comparable Property Analysis** — Leasing and sales comps selection with weighted average rent calculation and price-per-square-foot benchmarking
-- **Financial Modeling** — Five-year unlevered DCF with base, worst, and best case scenarios; IRR and NPV outputs; going-in and going-out cap rate analysis
+**Investment question:** Does Museum Tower's projected cash flow support its current $190.0M asking price at a reasonable target return, or is the asset overvalued relative to fundamentals?
 
 ## Key Findings
-- Uptown Charlotte occupancy (91.89%) and 12-month net absorption (25.7%) outpaced the broader Charlotte market, reflecting strong and durable renter demand
-- The submarket's five-year population growth of 7.9% exceeded the national index of 2.8%, supporting long-term housing demand fundamentals
-- Museum Tower commands the highest asking rent among comparable properties at $2,619/unit, approximately $375 above the submarket average, supported by its Mint Museum integration and newest vintage in the competitive set
-- $370 million in trailing 12-month sales volume — the highest in over a decade — signals sustained institutional investor confidence
-- Limited new supply (87 units delivered since 2021) and a declining vacancy trajectory support future rent growth potential
 
-## Model Outputs
-All three scenarios use a five-year holding period with a going-in cap rate of 5.35% and an 8% target IRR.
+- **The deal does not pencil at the current asking price.** Under base case assumptions, the unleveraged IRR is **4.78%** against an 8% target return, and the DCF-implied value of **$165.8M** sits well below the $190.0M asking price.
+- **Even the best case falls short.** Assuming stronger rent growth, tighter vacancy, and no cap rate expansion over the hold period, the best case IRR reaches only **7.69%** — still short of the 8% hurdle.
+- **The return barely clears the risk-free rate.** The 10-year U.S. Treasury yield is currently approximately 4.4%, meaning the base case IRR offers only a ~40 basis point premium over a risk-free asset for an illiquid, single-property investment — a thin premium for the risk involved.
+- **This is a pricing problem, not a fundamentals problem.** Museum Tower is genuinely the newest, highest-rent, and most differentiated asset in its competitive set (commanding $2,619/unit versus a $2,244 weighted-average comp set), benefiting from a unique integration with the Mint Museum and strong Uptown submarket fundamentals. The issue is valuation, not asset quality.
+- **Uptown outperforms the broader Charlotte market.** Uptown vacancy (8.0%) runs well below the citywide rate (12.8%), supported by a constrained new-supply pipeline (only 87 units delivered since 2021) even as the broader Charlotte market absorbs a historic construction wave.
 
-| Scenario | Purchase Price | IRR | DCF Value | Going-out Cap |
-|---|---|---|---|---|
-| Base Case | $190.0M | 4.78% | $165.8M | 5.85% |
-| Worst Case | $187.3M | 2.97% | $151.3M | 6.35% |
-| Best Case | $197.4M | 7.69% | $194.8M | 5.35% |
+## Methodology
 
-The base and worst case scenarios produce IRRs below the 8% hurdle rate, with DCF-implied values meaningfully below the current asking price. The best case approaches the target return, suggesting the asset could be viable under strong submarket outperformance — but with limited margin for error at current pricing.
+**1. Market & submarket research** (CoStar) — analyzed Uptown Charlotte's supply/demand fundamentals, demographics, and broader Charlotte multifamily trends, including a citywide construction and absorption review.
 
-## Skills Demonstrated
-- Commercial Real Estate Underwriting
-- Discounted Cash Flow Modeling (Excel)
-- Cap Rate & IRR Analysis
-- Comparable Property Selection (Leasing & Sales)
-- CoStar Market & Demographic Research
-- Scenario Analysis & Sensitivity Thinking
-- Investment Memo Writing
+**2. Comparable property analysis** — benchmarked Museum Tower against four leasing comparables and four recent sales transactions in the Uptown submarket to validate rent and pricing assumptions.
 
-## Data Sources
-- CoStar Multifamily Market & Submarket Reports
-- CoStar Property, Transaction & Demographic Data
-- The Mint Museum (mintmuseum.org)
+**3. Three-scenario DCF model** (Excel) — built a base/worst/best case pro forma projecting rent growth, vacancy, operating expenses, and a terminal sale, then solved for unleveraged IRR and present value under each scenario.
 
-## Project Files
-| File | Description |
-|---|---|
-| `multifamily-investment-report.pdf` | Full investment analysis report including submarket research, demographic findings, comparable property analysis, and underwriting assumptions |
-| `multifamily-investment-assumptions.xlsx` | Three-scenario DCF model (Base, Worst, Best) with pro forma, IRR calculation, and DCF valuation |
+| | Base Case | Worst Case | Best Case |
+|---|---|---|---|
+| **Purchase Price** | $190.0M | $187.3M | $197.4M |
+| **Going-in / Going-out Cap Rate** | 5.35% / 5.85% | 5.35% / 6.35% | 5.35% / 5.35% |
+| **IRR** | 4.78% | 2.97% | 7.69% |
+| **DCF Value** | $165.8M | $151.3M | $194.8M |
 
+## A Note on the Model
+
+An earlier version of this model contained two errors caught during review: operating expenses were referencing a static base year instead of compounding year-over-year (understating expenses, and therefore overstating NOI and IRR), and the going-out cap rate was hardcoded in the worst and best case scenarios instead of being tied formulaically to the going-in cap rate. Both were corrected — every operating expense line now compounds on the prior year (consistent with how CAPEX was already modeled), and going-out cap rates in all three scenarios are now formula-driven. The numbers in this README and the final report reflect the corrected model.
+
+## Tools Used
+
+- **Excel** — three-scenario DCF model with formula-driven assumptions, IRR/NPV calculations, and a fully cross-checked operating expense schedule
+- **CoStar** — property data, comparable transactions, submarket and market-level demographic and supply/demand statistics
+
+## Repository Structure
+
+```
+uptown-charlotte-multifamily/
+├── README.md
+├── uptown_charlotte_investment_analysis.pdf   # Full written report with market analysis, comps, and recommendation
+└── uptown_charlotte_investment_analysis.xlsx  # Three-scenario DCF model (Pro Forma / Worst Case / Best Case)
+```
+
+## Contact
+
+**Kyle Murphy**
+LinkedIn: [linkedin.com/in/kmurphy61](http://www.linkedin.com/in/kmurphy61)
+Email: KyleMurphy02@icloud.com
