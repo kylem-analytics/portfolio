@@ -6,7 +6,7 @@ Welcome to my project portfolio. This repository showcases analytics, finance, a
 
 ## About Me
 
-I am a Finance major and Business Analytics graduate student at Elon University with experience in financial analysis, healthcare analytics, valuation, dashboard development, and statistical modeling. My interests include portfolio analytics, equity research, FP&A, investment analysis, and data-driven decision making.
+I am a Finance major and Business Analytics graduate from Elon University with experience in financial analysis, healthcare analytics, valuation, dashboard development, and statistical modeling. My interests include portfolio analytics, equity research, FP&A, investment analysis, and data-driven decision making.
 
 ## Featured Projects
 
