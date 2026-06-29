@@ -22,10 +22,6 @@ Developed a Python and Tableau-based investment analysis to identify attractive 
 
 Performed real estate market analysis and underwriting for a multifamily property investment, incorporating demographic trends, supply-demand analysis, rent growth forecasts, and cap rate assumptions.
 
-### Community Paramedicine Program Analysis
-
-Evaluated the financial and operational impact of a healthcare intervention program using propensity score matching, cost analysis, and patient outcome assessment.
-
 ### NIL Athlete Valuation Model
 
 Built a valuation framework for collegiate athletes using performance metrics, risk factors, and budget allocation strategies to support NIL investment decisions.
