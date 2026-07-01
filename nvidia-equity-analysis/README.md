@@ -1,6 +1,6 @@
 # NVIDIA Equity Analysis
 
-A full equity research report on NVIDIA Corporation evaluating the stock as a potential investment opportunity, completed as part of an Investments course at Elon University in partnership with Noah Rubin. All Bloomberg Terminal research, financial analysis, valuation modeling, and written analysis were conducted jointly. Please note that this analysis does not intend to serve as financial advise.
+A full equity research report on NVIDIA Corporation evaluating the stock as a potential investment opportunity, completed as part of an Investments course at Elon University in partnership with Noah Rubin. All Bloomberg Terminal research, financial analysis, valuation modeling, and written analysis were conducted jointly. Please note that this analysis does not intend to serve as financial advice.
 
 ---
 
