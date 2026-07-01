@@ -1,59 +1,63 @@
-# Kyle Murphy
+# Kyle Murphy — Project Portfolio
 
-Finance & Business Analytics Student | Elon University
+Recent Elon University graduate with a B.S.B.A. in Finance and an M.S. in Business Analytics, earned through the university's selective 3+1 Dual Degree Program. This repository showcases projects completed through coursework, internships, and independent research spanning financial modeling, data analytics, equity research, and real estate underwriting.
 
-Welcome to my project portfolio. This repository showcases analytics, finance, and data-driven projects completed through coursework, internships, and independent research.
+---
 
-## About Me
+## Projects
 
-I am a Finance major and Business Analytics graduate from Elon University with experience in financial analysis, healthcare analytics, valuation, dashboard development, and statistical modeling. My interests include portfolio analytics, equity research, FP&A, investment analysis, and data-driven decision making.
+### [Boston Airbnb Investment Analysis](boston-airbnb-investment-analysis/)
 
-## Featured Projects
+A Python and Tableau analysis of the Boston short-term rental market using Inside Airbnb data (4,419 listings). Built a regression model to identify the drivers of estimated monthly revenue across neighborhoods, room types, quality, competition level, and host experience, then packaged the findings into an interactive Tableau dashboard.
 
-### NVIDIA Equity Valuation
+**Highlights:** Multiple regression with an adjusted R² of 0.747 across 2,742 listings. Dashboard includes six visualizations with a room-type filter and cross-chart interactivity.
 
-Conducted a comprehensive equity research report on NVIDIA, incorporating dividend discount valuation, relative valuation, industry analysis, ESG assessment, and investment recommendation.
+**Tools:** Python, pandas, statsmodels, Matplotlib, Tableau
 
-### Boston Airbnb Investment Analysis
+---
 
-Developed a Python and Tableau-based investment analysis to identify attractive Airbnb investment opportunities through market research, pricing analysis, and profitability assessment.
+### [NIL Athlete Valuation & Bidding Simulation](nil-athlete-valuation/)
 
-### Uptown Charlotte Multifamily Investment Analysis
+A live-auction simulation in which I acted as the analytics staff for a university athletic department, building a valuation model to evaluate and bid on NIL athletes under a fixed budget and real roster constraints. Completed in partnership with Jack Dermody as part of a Sports Analytics course at Elon University.
 
-Performed real estate market analysis and underwriting for a multifamily property investment, incorporating demographic trends, supply-demand analysis, rent growth forecasts, and cap rate assumptions.
+**Highlights:** Chose a weighted composite model over regression after correctly identifying that a sample of 14 football and 11 basketball athletes would produce an overfit regression. Tied positional need multipliers directly to roster gap data. USF's final roster ranked #1 in the class-wide championship simulation.
 
-### NIL Athlete Valuation Model
+**Tools:** Python, pandas, NumPy, scikit-learn, Plotly
 
-Built a valuation framework for collegiate athletes using performance metrics, risk factors, and budget allocation strategies to support NIL investment decisions.
+---
 
-## Technical Skills
+### [NVIDIA Equity Analysis](nvidia-equity-analysis/)
 
-**Programming & Analytics**
+A full equity research report on NVIDIA Corporation completed in December 2024 in partnership with Noah Rubin as part of an Investments course at Elon University. The analysis covers business overview, industry and competitive landscape, macroeconomic factors, financial performance, investment catalysts, ESG assessment, and risk factors, with a blended valuation target derived from three methods.
 
-* Python
-* SQL
-* Tableau
-* Power BI
-* Excel
+**Highlights:** Buy recommendation at $142.44 with a $224.37 target and a 2-year hold. As of mid-2026, the stock has appreciated to approximately $192, a roughly 35% gain ahead of the December 2026 hold period conclusion. The Relative Valuation ($185.76) and Analyst consensus ($170.56) methods both proved accurate anchors for where the stock traded.
 
-**Finance**
+**Tools:** Bloomberg Terminal (DDM, ANR, DES, Relative Valuation)
 
-* Equity Valuation
-* Financial Modeling
-* Investment Analysis
-* Financial Statement Analysis
-* Forecasting
+---
 
-**Data Science & Analytics**
+### [Uptown Charlotte Multifamily Investment Analysis](uptown-charlotte-multifamily/)
 
-* Statistical Modeling
-* Machine Learning
-* Data Visualization
-* Business Intelligence
-* Predictive Analytics
+A discounted cash flow underwriting analysis of Museum Tower Apartments (525 S Church Street, Charlotte, NC), a Class A, 43-story high-rise multifamily asset in Uptown Charlotte, completed in partnership with Noah Rubin and Mitch Ashberg as part of a Real Estate Finance course at Elon University.
+
+**Highlights:** Three-scenario DCF model (Base / Worst / Best) producing unleveraged IRRs of 4.78%, 2.97%, and 7.69% respectively against an 8% target return. Base case DCF-implied value of $165.8M versus a $190.0M asking price. Recommendation: do not acquire at current pricing.
+
+**Tools:** Excel (DCF model, IRR/NPV, scenario analysis), CoStar
+
+---
+
+## Skills
+
+**Programming & Analytics:** Python, SQL, Tableau, Power BI, Advanced Excel, Bloomberg Terminal
+
+**Finance:** Equity Valuation, DCF Modeling, Financial Statement Analysis, Real Estate Underwriting, FP&A, Investment Research
+
+**Data Science:** Statistical Modeling, Regression Analysis, Machine Learning, Data Visualization, Dashboard Development
+
+---
 
 ## Contact
 
-LinkedIn: [www.linkedin.com/in/kmurphy61](http://www.linkedin.com/in/kmurphy61)
-
-Email: [KyleMurphy02@icloud.com](mailto:KyleMurphy02@icloud.com)
+**Kyle Murphy**
+LinkedIn: [linkedin.com/in/kmurphy61](http://www.linkedin.com/in/kmurphy61)
+Email: KyleMurphy02@icloud.com
