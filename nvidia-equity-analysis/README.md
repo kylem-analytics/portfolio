@@ -11,7 +11,7 @@ A full equity research report on NVIDIA Corporation evaluating the stock as a po
 **Target Price:** $224.37 (57% upside)  
 **Investment Horizon:** 2 Years  
 
-This analysis was conducted in December 2024 as part of an Investments course at Elon University. NVIDIA was identified as undervalued at the time based on a weighted combination of three valuation methods. The recommended 2-year hold period runs through approximately December 2026. As of mid-2026, the stock has appreciated to approximately $192 from the $142.44 entry price, a gain of roughly 35%, validating the directional thesis ahead of the full hold period concluding.
+This analysis was conducted in December 2024 as part of an Investments course at Elon University. NVIDIA was identified as undervalued at the time based on a weighted combination of three valuation methods. The recommended 2-year hold period runs through approximately December 2026. As of mid-2026, the stock has appreciated to approximately $200 from the $142.44 entry price, a gain of roughly 40%, validating the directional thesis ahead of the full hold period concluding.
 
 ---
 
