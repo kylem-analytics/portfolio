@@ -1,0 +1,73 @@
+Project ID,Project Name,Submitting Team,Owner,Current Stage,Priority,Status,Intake Date,Target Deployment Date,Last Update Date,Days In Current Stage,SteerCo Review Flag
+SWAT-1001,Capital Call Dashboard,Investor Services,Joshua W.,Build,Low,At Risk,2026-01-16,2026-03-21,2026-06-30,28,Yes
+SWAT-1002,Investor Onboarding Automation Flow,Reporting,Jeffrey L.,Build,Medium,On Track,2026-01-28,2026-04-26,2026-06-30,25,No
+SWAT-1003,Investor Query Portal,Investor Services,Susan R.,Testing,Low,On Track,2026-03-21,2026-06-08,2026-07-02,16,No
+SWAT-1004,Expense Allocation Intake Form,Finance,Christopher D.,Intake,Low,On Track,2026-06-05,2026-10-01,2026-07-01,5,No
+SWAT-1005,Capital Call Reconciliation App,Finance,Lisa S.,Governance,High,Delayed,2026-04-28,2026-07-05,2026-06-25,61,Yes
+SWAT-1006,Fund Reporting Integration,Reporting,Christopher D.,Testing,Critical,On Track,2026-03-11,2026-07-07,2026-07-04,6,Yes
+SWAT-1007,Deal Pipeline Reporting Tool,Investor Services,Matthew M.,Build,High,Delayed,2026-01-12,2026-04-03,2026-06-26,42,Yes
+SWAT-1008,Portfolio Monitoring Reporting Tool,Technology,Linda W.,Build,Critical,At Risk,2026-03-25,2026-05-31,2026-06-23,27,Yes
+SWAT-1009,Portfolio Monitoring Dashboard,Investor Services,Lisa S.,Governance,Low,Delayed,2026-02-09,2026-07-01,2026-06-30,46,Yes
+SWAT-1010,Investor Query Reporting Tool,Investor Services,Jeffrey L.,Intake,High,On Track,2026-02-27,2026-06-18,2026-06-27,10,Yes
+SWAT-1011,Deal Pipeline Data Pipeline,Reporting,Danielle J.,Governance,Low,Delayed,2026-05-07,2026-10-01,2026-06-24,49,Yes
+SWAT-1012,Audit Prep Portal,Finance,Debra G.,Build,Medium,On Track,2026-06-14,2026-08-27,2026-06-26,22,No
+SWAT-1013,Vendor Invoice Integration,Investor Services,Debra G.,Intake,Medium,On Track,2026-02-08,2026-06-12,2026-07-05,5,No
+SWAT-1014,Capital Call Integration,Investor Services,Patricia M.,Testing,Medium,On Track,2026-01-29,2026-03-30,2026-06-28,8,No
+SWAT-1015,KYC Refresh Notification System,Finance,Christopher D.,Intake,Medium,Delayed,2026-04-16,2026-08-26,2026-06-22,20,Yes
+SWAT-1016,NAV Reconciliation Automation Flow,Technology,Jeffrey L.,Testing,Critical,At Risk,2026-02-15,2026-05-07,2026-06-28,22,Yes
+SWAT-1017,Vendor Invoice Tracker,Technology,Susan R.,Deployment,Critical,Completed,2026-03-29,2026-08-21,2026-07-03,4,No
+SWAT-1018,Deal Pipeline Notification System,Technology,Jeffery W.,Intake,Low,On Track,2026-04-19,2026-07-16,2026-06-27,9,No
+SWAT-1019,Investor Onboarding Automation Flow,Finance,Christopher D.,Build,Critical,On Track,2026-04-17,2026-09-09,2026-07-02,21,Yes
+SWAT-1020,LP Reporting Data Pipeline,Reporting,Lisa S.,Testing,High,On Track,2026-03-04,2026-05-15,2026-07-03,18,Yes
+SWAT-1021,Capital Call Integration,Technology,Christopher D.,Build,Medium,At Risk,2026-05-22,2026-09-10,2026-07-06,41,Yes
+SWAT-1022,KYC Refresh Automation Flow,Reporting,Jill R.,Build,Medium,On Track,2026-02-18,2026-04-28,2026-07-03,13,No
+SWAT-1023,Investor Query Tracker,Finance,Christopher D.,Intake,Critical,On Track,2026-04-17,2026-08-07,2026-07-06,2,Yes
+SWAT-1024,LP Reporting Notification System,Reporting,Jill R.,Testing,Critical,On Track,2026-04-10,2026-08-06,2026-06-22,15,Yes
+SWAT-1025,Quarterly Statement Reconciliation App,Technology,Danielle J.,Build,Medium,At Risk,2026-03-28,2026-06-02,2026-07-06,27,Yes
+SWAT-1026,LP Reporting Tracker,Reporting,Christopher D.,Intake,Medium,On Track,2026-05-30,2026-08-28,2026-06-26,10,No
+SWAT-1027,Cash Management Automation Flow,Reporting,Joshua W.,Governance,Low,On Track,2026-01-23,2026-05-03,2026-06-28,42,No
+SWAT-1028,Vendor Invoice Data Pipeline,Investor Services,Linda W.,Build,Medium,At Risk,2026-05-29,2026-09-24,2026-07-06,29,Yes
+SWAT-1029,Capital Call Automation Flow,Reporting,Jeffery W.,Governance,Low,Delayed,2026-04-05,2026-07-30,2026-07-04,46,Yes
+SWAT-1030,Quarterly Statement Portal,Finance,Linda W.,Governance,Medium,On Track,2026-04-10,2026-06-22,2026-07-05,13,No
+SWAT-1031,Distribution Notice Approval Workflow,Investor Services,Patricia M.,Governance,High,At Risk,2026-02-11,2026-04-18,2026-07-02,34,Yes
+SWAT-1032,NAV Reconciliation Integration,Technology,Jeffery W.,Testing,Low,At Risk,2026-02-23,2026-07-23,2026-06-28,18,Yes
+SWAT-1033,Audit Prep Tracker,Finance,Matthew M.,Intake,Critical,Delayed,2026-03-14,2026-07-22,2026-06-27,25,Yes
+SWAT-1034,Distribution Notice Reconciliation App,Reporting,Susan R.,Intake,Medium,Delayed,2026-04-24,2026-07-24,2026-06-26,27,Yes
+SWAT-1035,Capital Call Intake Form,Technology,Patricia M.,Deployment,High,Completed,2026-03-03,2026-05-24,2026-07-06,3,No
+SWAT-1036,KYC Refresh Reconciliation App,Reporting,Joshua W.,Build,High,On Track,2026-02-16,2026-05-12,2026-07-05,6,Yes
+SWAT-1037,Investor Query Intake Form,Investor Services,Patricia M.,Testing,High,On Track,2026-03-06,2026-06-09,2026-07-01,9,Yes
+SWAT-1038,NAV Reconciliation Approval Workflow,Investor Services,Christopher D.,Governance,Medium,On Track,2026-05-18,2026-08-08,2026-07-04,6,No
+SWAT-1039,Vendor Invoice Dashboard,Finance,Susan R.,Governance,Medium,On Track,2026-02-06,2026-05-26,2026-07-05,43,No
+SWAT-1040,Expense Allocation Approval Workflow,Finance,Susan R.,Testing,Low,On Track,2026-03-15,2026-05-22,2026-06-30,9,No
+SWAT-1041,KYC Refresh Portal,Investor Services,Robert J.,Governance,Low,On Track,2026-03-25,2026-08-21,2026-06-30,31,No
+SWAT-1042,Quarterly Statement Tracker,Reporting,Anthony G.,Build,High,At Risk,2026-01-22,2026-05-13,2026-07-02,24,Yes
+SWAT-1043,Investor Onboarding Approval Workflow,Investor Services,Lisa S.,Build,High,At Risk,2026-02-23,2026-05-21,2026-06-26,31,Yes
+SWAT-1044,LP Reporting Migration Tool,Reporting,Linda W.,Governance,Medium,At Risk,2026-04-17,2026-07-25,2026-06-26,32,Yes
+SWAT-1045,Portfolio Monitoring Data Pipeline,Reporting,Debra G.,Intake,Low,At Risk,2026-03-02,2026-07-20,2026-06-22,14,Yes
+SWAT-1046,Expense Allocation Migration Tool,Technology,Linda W.,Governance,Low,At Risk,2026-04-21,2026-09-17,2026-07-04,22,Yes
+SWAT-1047,Investor Query Dashboard,Reporting,Jill R.,Deployment,Low,Completed,2026-01-24,2026-05-04,2026-06-27,9,No
+SWAT-1048,Investor Query Portal,Technology,Jill R.,Testing,Medium,At Risk,2026-04-11,2026-07-11,2026-06-24,30,Yes
+SWAT-1049,Vendor Invoice Tracker,Technology,Joshua W.,Governance,Medium,At Risk,2026-03-23,2026-07-30,2026-07-01,29,Yes
+SWAT-1050,NAV Reconciliation Reporting Tool,Reporting,Matthew M.,Build,High,On Track,2026-03-04,2026-07-11,2026-07-01,18,Yes
+SWAT-1051,Investor Query Reconciliation App,Finance,Susan R.,Build,Medium,At Risk,2026-01-20,2026-05-21,2026-06-30,32,Yes
+SWAT-1052,Investor Onboarding Intake Form,Investor Services,Christopher D.,Testing,High,On Track,2026-01-13,2026-04-11,2026-06-22,20,Yes
+SWAT-1053,LP Reporting Data Pipeline,Investor Services,Jeffery W.,Governance,Low,At Risk,2026-02-17,2026-05-04,2026-06-22,37,Yes
+SWAT-1054,Investor Onboarding Reconciliation App,Finance,Christopher D.,Intake,Medium,On Track,2026-04-11,2026-07-21,2026-07-05,1,No
+SWAT-1055,Expense Allocation Notification System,Investor Services,Robert J.,Build,High,At Risk,2026-05-27,2026-07-28,2026-06-29,27,Yes
+SWAT-1056,Fund Reporting Intake Form,Reporting,Linda W.,Governance,High,On Track,2026-04-14,2026-06-15,2026-07-05,6,Yes
+SWAT-1057,Distribution Notice Data Pipeline,Reporting,Patricia M.,Governance,Low,On Track,2026-03-14,2026-07-29,2026-07-04,21,No
+SWAT-1058,Capital Call Reporting Tool,Investor Services,Robert J.,Intake,Low,At Risk,2026-04-27,2026-09-09,2026-07-05,18,Yes
+SWAT-1059,Portfolio Monitoring Automation Flow,Investor Services,Joshua W.,Testing,Medium,At Risk,2026-01-31,2026-06-24,2026-06-30,14,Yes
+SWAT-1060,Deal Pipeline Automation Flow,Investor Services,Debra G.,Intake,Medium,On Track,2026-02-19,2026-05-09,2026-07-01,6,No
+SWAT-1061,Audit Prep Reporting Tool,Investor Services,Susan R.,Governance,Critical,On Track,2026-01-16,2026-04-27,2026-07-02,32,Yes
+SWAT-1062,Portfolio Monitoring Automation Flow,Investor Services,Debra G.,Testing,Low,At Risk,2026-06-09,2026-09-18,2026-06-29,25,Yes
+SWAT-1063,Compliance Review Notification System,Reporting,Robert J.,Build,Medium,Delayed,2026-01-25,2026-05-31,2026-07-06,50,Yes
+SWAT-1064,Expense Allocation Automation Flow,Reporting,Susan R.,Testing,Medium,On Track,2026-02-11,2026-04-14,2026-06-29,18,No
+SWAT-1065,NAV Reconciliation Approval Workflow,Reporting,Linda W.,Governance,Low,At Risk,2026-02-01,2026-05-26,2026-07-01,48,Yes
+SWAT-1066,KYC Refresh Intake Form,Technology,Joshua W.,Build,Medium,At Risk,2026-01-30,2026-06-27,2026-06-24,21,Yes
+SWAT-1067,Compliance Review Data Pipeline,Reporting,Lisa S.,Testing,Medium,Delayed,2026-04-05,2026-06-28,2026-07-05,53,Yes
+SWAT-1068,Quarterly Statement Data Pipeline,Investor Services,Jeffrey L.,Build,Low,On Track,2026-06-03,2026-09-08,2026-07-02,6,No
+SWAT-1069,Distribution Notice Integration,Technology,Robert J.,Intake,Low,On Track,2026-03-21,2026-05-26,2026-07-04,8,No
+SWAT-1070,Vendor Invoice Notification System,Finance,Joshua W.,Testing,Medium,At Risk,2026-05-09,2026-08-15,2026-06-27,11,Yes
+SWAT-1071,NAV Reconciliation Data Pipeline,Finance,Lisa S.,Governance,Medium,At Risk,2026-03-11,2026-07-05,2026-06-29,32,Yes
+SWAT-1072,Quarterly Statement Portal,Technology,Lisa S.,Build,Medium,Delayed,2026-04-24,2026-07-20,2026-06-26,47,Yes
