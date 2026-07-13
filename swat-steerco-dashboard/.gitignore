@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Power BI temp/lock files
+~$*.pbix
+*.pbix.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
