@@ -54,7 +54,7 @@ This project was built collaboratively with Claude (Anthropic), used as a workin
 - **Power BI Desktop**: data modeling, DAX measures, dashboard visuals
 - **DAX**: all bottleneck detection, aging thresholds, and flag categorization are calculated dynamically, not hardcoded
 
-## Repo structure
+​```
 swat-steerco-dashboard/
 ├── data/
 │   └── pipeline_data.csv        # mock dataset (72 initiatives)
@@ -63,6 +63,7 @@ swat-steerco-dashboard/
 │   └── swat-steerco-navy-amber.json   # Power BI theme file
 ├── screenshots/                  # dashboard screenshots (all 3 pages)
 └── README.md
+​```
 
 ## Using this with real data
 
