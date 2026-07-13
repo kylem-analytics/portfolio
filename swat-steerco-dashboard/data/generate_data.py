@@ -1,3 +1,7 @@
+import os
+os.chdir(r"Your file path here")
+print(os.getcwd())
+
 """
 Generates a mock project pipeline dataset for the SWAT project pipeline dashboard.
 Simulates ~70 initiatives moving through a 5-stage operating model:
