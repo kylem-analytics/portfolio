@@ -2,7 +2,7 @@
 
 A Power BI dashboard for tracking initiatives moving through a five-stage delivery pipeline — intake, build, governance, testing, and deployment — with automated bottleneck detection, proportional aging analysis, and a steering-committee-ready review view.
 
-> **This project uses entirely synthetic, randomly generated mock data.** No real company data, project names, or confidential information is used anywhere in this repository. Any resemblance between the mock project names and real initiatives is coincidental.
+> **This project uses entirely synthetic, randomly generated mock data. No real company data, project names, or confidential information is used anywhere in this repository. Any resemblance between the mock project names and real initiatives is coincidental.**
 
 ## Why this exists
 
