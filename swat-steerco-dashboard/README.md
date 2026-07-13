@@ -57,3 +57,24 @@ Looking at the dashboard as a whole, here's the story this particular mock datas
 - **DAX**: all bottleneck detection, aging thresholds, and flag categorization are calculated dynamically, not hardcoded
 
 ## Repo structure
+
+```
+swat-steerco-dashboard/
+├── data/
+│   └── pipeline_data.csv        # mock dataset (72 initiatives)
+├── generate_data.py              # generates the mock dataset
+├── theme/
+│   └── swat-steerco-navy-amber.json   # Power BI theme file
+├── screenshots/                  # dashboard screenshots (all 3 pages)
+└── README.md
+```
+
+## Using this with real data
+
+Swap `data/pipeline_data.csv` for a real export that matches the same column names and types (see `generate_data.py` for the exact schema), then refresh the Power BI file. Every measure and visual recalculates automatically, no rebuilding required. If the real source system's raw export doesn't already match that schema, the Python layer is exactly where that cleanup step belongs, upstream of Power BI ever seeing the data.
+
+## Contact
+
+Kyle Murphy
+LinkedIn: [linkedin.com/in/kmurphy61](http://www.linkedin.com/in/kmurphy61)
+Email: [KyleMurphy02@icloud.com](mailto:KyleMurphy02@icloud.com)
